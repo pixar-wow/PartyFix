@@ -1,0 +1,10 @@
+## Interface: 40000
+## Title: |cff00E5EEParty Fix
+## DefaultState: Enabled
+## Author:  Pixar - Sinestra
+## LoadOnDemand: 0
+## Version: 2.1
+## Notes: Fix some party Bug :)
+
+simpleFrame.xml
+PartyFix.lua

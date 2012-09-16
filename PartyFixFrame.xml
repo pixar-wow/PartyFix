@@ -1,0 +1,15 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.blizzard.com/wow/ui/ 
+ ..\..\FrameXML\UI.xsd">
+ <Script File="PartyFix.lua"/>
+  <Frame name="PartyFixFrame">
+   <Scripts>
+    <OnLoad>
+		PartyFix.Fix_disco()
+		PartyFix.Fix_unknBug()
+		DEFAULT_CHAT_FRAME:AddMessage("PartyFix Actif .");
+    </OnLoad>
+   </Scripts>
+  </Frame>
+</Ui> 
